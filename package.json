@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npx gh-pages-clean && npm run build",
+    "deploy": "gh-pages -d dist --clean"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

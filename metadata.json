@@ -1,0 +1,6 @@
+{
+  "name": "投资组合理论与量化配置实验室",
+  "description": "现代投资组合理论(MPT)、均值-方差二次规划、有效前沿与资本市场线演播、四大类资产配置案例、Python/PyPortfolioOpt代码引擎与AI量化诊断全流程实验室",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
